@@ -72,3 +72,9 @@ ul {
   list-style: none;
   text-align: left;
 }
+
+a {
+  font-size: small;
+  background-color: transparent;
+  text-decoration: none;
+}
