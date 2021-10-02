@@ -1,0 +1,74 @@
+.container {
+  max-width: 700px;
+  border-style: solid;
+  background-color: rgb(253, 253, 255);
+  border-radius: 30px;
+  border-color: #f0ebeb;
+  border-width: 4px;
+}
+.search-form {
+  max-width: 500px;
+}
+.form-control {
+  display: inline-block;
+  width: 300px;
+  margin: 20px 10px;
+  margin-inline-start: 30px;
+}
+.row {
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 0 auto;
+  padding: 0px 20px;
+}
+
+.col-5 {
+  text-align: center;
+}
+.show-temperature {
+  font-weight: bold;
+  font-size: 35px;
+}
+.units {
+  margin-top: 20px;
+  margin: 0px;
+}
+
+.temperature {
+  margin-top: 0px;
+  margin-left: 120px;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  position: relative;
+}
+
+.col-2 {
+  float: right;
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
+.h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #191970;
+  text-align: center;
+  padding: 10px 50px;
+}
+.date {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 30px;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}

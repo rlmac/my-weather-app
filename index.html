@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+   
+    <script> 
+      src="https://kit.fontawesome.com/22196f6741.js"
+      crossorigin="anonymous"
+         </script>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   
+     <title>Week 5 Homework</title>
+  </head>
+ <br />
+  <br />
+<div class="row">
+           <div class="container">
+           <body>
+      <br>
+          <h3>Your Weather App</h3>
+   <form class="search-form"
+        id="search-form"> 
+  <input type="search" class="form-control" placeholder="🔍︁Search for city"
+     autocomplete="off"
+     autofocus="on"
+     type="submit" 
+     id="city-input" 
+     />
+           <div class="col-2">
+     <button class="btn btn-primary"
+      id="current-location-button">
+      search
+         </button>
+   
+           </div>
+      <div class="row">
+        <div class="col-3">
+     <h1 id="city">Melbourne</h1> 
+
+              </div>
+              <span class="temperature" id="temperature"> </span>
+             <span class="units">°c</span>
+                  </div>
+               
+            <br />
+            </form>
+             <div  class="col-4">
+             <ul>
+               <li>Expect: <span id="description"></span></li>
+               <li>Humidity: <span id="humidity"></span>%</li>
+               <li>Wind: <span id="wind"></span>km/h</li>
+             </ul>
+             </div>
+              <br />
+             <div class="date"id="h5">
+    <h5>Date</h5>
+              </div>    
+        </div> 
+     <script src="src/index.js"></script>
+  </body>
+</html>
