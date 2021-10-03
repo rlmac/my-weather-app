@@ -1,10 +1,14 @@
-.container {
+.weather-app {
   max-width: 700px;
+  display: block;
+  margin: 30px auto 10px auto;
+  padding: 30px;
   border-style: solid;
   background-color: rgb(253, 253, 255);
   border-radius: 30px;
   border-color: #f0ebeb;
   border-width: 4px;
+  box-shadow: 10px 10px 40px 1px rgba(0, 0, 0, 0.5);
 }
 .search-form {
   max-width: 500px;
@@ -53,7 +57,9 @@
   font-size: 40px;
   font-weight: bold;
 }
-
+body {
+  background-image: url(../images/beach.jpg);
+}
 h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -74,7 +80,8 @@ ul {
 }
 
 a {
-  font-size: small;
-  background-color: transparent;
   text-decoration: none;
+}
+footer {
+  text-align: center;
 }

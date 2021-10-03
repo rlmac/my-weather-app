@@ -17,63 +17,71 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
-         
-    <script> 
-      src="https://kit.fontawesome.com/22196f6741.js"
-      crossorigin="anonymous"
-         </script>
-     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-   
-     <title>Week 6 Homework</title>
-  </head>
- <br />
-  <br />
-<div class="row">
-           <div class="container">
-           <body>
-      <br>
-          <h3>Your Weather App</h3>
-   <form class="search-form"
-        id="search-form"> 
-  <input type="search" class="form-control" placeholder="🔍︁Search for city"
-     autocomplete="off"
-     autofocus="on"
-     type="submit" 
-     id="city-input" 
-     />
-           <div class="col-2">
-     <button class="btn btn-primary"
-      id="current-location-button">
-      search
-         </button>
-   
-           </div>
-      <div class="row">
-        <div class="col-3">
-     <h1 id="city">Melbourne</h1> 
 
-              </div>
-              <span class="temperature" id="temperature"> </span>
-             <span class="units">°c</span>
-                  </div>
-               
-            <br />
-            </form>
-             <div  class="col-4">
-             <ul>
-               <li>Expect: <span id="description"></span></li>
-               <li>Humidity: <span id="humidity"></span>%</li>
-               <li>Wind: <span id="wind"></span>km/h</li>
-             </ul>
-             </div>
-              <br />
-             <div class="date"id="h5">
-    <h5>Date</h5>
-              </div>    
-        </div> 
-       <a href="https://github.com/rlmac/my-weather-app.git" target="_blank">
-      Open-source code</a>
-      ", by Rose MacDonald"
-     <script src="src/index.js"></script>
+    <script>
+      src = "https://kit.fontawesome.com/22196f6741.js";
+      crossorigin = "anonymous";
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Week 6 Homework</title>
+  </head>
+  <br />
+  <br />
+  <body>
+    <div class="container">
+      <img
+        alt=""
+        id="background-weather-picture"
+        class="float-end main-picture"
+      />
+      <div class="weather-app">
+        <h3>Your Weather App</h3>
+
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="🔍︁Search for city"
+            autocomplete="off"
+            autofocus="on"
+            type="submit"
+            id="city-input"
+          />
+          <div class="col-2">
+            <button class="btn btn-primary" id="current-location-button">
+              search
+            </button>
+          </div>
+
+          <div class="row">
+            <div class="col-3">
+              <h1 id="city">Melbourne</h1>
+            </div>
+            <span class="temperature" id="temperature"> </span>
+            <span class="units">°c</span>
+          </div>
+          <br />
+        </form>
+        <div class="col-4">
+          <ul>
+            <li>Expect: <span id="description"></span></li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span>km/h</li>
+          </ul>
+        </div>
+        
+        <div class="date" id="h5">
+          <h5>Date</h5>
+        </div>
+      </div>
+      <footer>
+        <a href="https://github.com/rlmac/my-weather-app.git" target="_blank">
+          Open-source code</a
+        >
+        by Rose MacDonald
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
