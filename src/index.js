@@ -85,6 +85,6 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
 let currentLocationButton = document.querySelector("#current-location-button");
-currentLocationButton.addEvenetListener("click", getcurrentLocation);
+currentLocationButton.addEventListener("click", getcurrentLocation);
 
 searchCity("Melbourne");
