@@ -38,18 +38,25 @@
       <div class="weather-app">
         <h3>Your Weather App</h3>
         <form class="search-form" id="search-form">
-          <input
-            type="search"
-            class="form-control"
-            placeholder="🔍︁Search for city"
-            autocomplete="off"
-            autofocus="on"
-            type="submit"
-            id="city-input"
-          />
-          <div class="dd-grid gap-2 d-md-block">
-            <button class="btn btn-primary" id="current-location-button">Current</button>
-            <button class="btn btn-success" id="search-weather">search</button>
+          <div class="row align-items-center">
+            <div class="col-7">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="🔍︁Search for city"
+                autocomplete="off"
+                autofocus="on"
+                type="submit"
+                id="city-input"
+              />
+            </div>
+            <div class="col-5">
+              <button class="btn btn-primary mr-3" id="current-location-button">
+                Current
+              </button>
+              <button class="btn btn-success" id="search-weather">
+                search
+              </button>
             </div>
           </div>
         </form>
